@@ -1,4 +1,4 @@
-# Modern Developer Portfolio Website
+# Modern Developer Portfolio Website Named as MYSELF
 
 A stunning, interactive portfolio website built with modern web technologies featuring 3D animations, smooth transitions, and a contact form integration.
 
@@ -68,10 +68,7 @@ A stunning, interactive portfolio website built with modern web technologies fea
 3. Add environment variables in Vercel dashboard
 4. Deploy automatically on every push
 
-### Netlify
-1. Build the project: `npm run build`
-2. Drag the `dist` folder to [Netlify Drop](https://app.netlify.com/drop)
-3. Or connect your GitHub repository for automatic deployments
+
 
 ## 📁 Project Structure
 
@@ -140,8 +137,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [your.email@example.com](mailto:leelasurendravasamsetti@gmail.com)
 
-Project Link: [https://github.com/yourusername/your-portfolio](https://github.com/yourusername/your-portfolio)
+Project Link: [https://github.com/yourusername/your-portfolio](https://github.com/surendra-vasamsetti/myself-portfolio.git)
 
 Live Demo: [https://yourportfolio.vercel.app](https://yourportfolio.vercel.app)

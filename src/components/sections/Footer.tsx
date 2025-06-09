@@ -3,10 +3,10 @@ import { Github, Linkedin, Twitter, Mail, Heart, Zap } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub', color: 'hover:text-cyan-400' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'hover:text-blue-400' },
+    { icon: Github, href: 'https://github.com/surendra-vasamsetti/', label: 'GitHub', color: 'hover:text-cyan-400' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/surendra-vasamsetti-87424b24a/', label: 'LinkedIn', color: 'hover:text-blue-400' },
     { icon: Twitter, href: 'https://twitter.com', label: 'Twitter', color: 'hover:text-purple-400' },
-    { icon: Mail, href: 'mailto:alex.johnson@example.com', label: 'Email', color: 'hover:text-green-400' },
+    { icon: Mail, href: 'mailto:leelasurendravasamsetti@gmail.com', label: 'Email', color: 'hover:text-green-400' },
   ];
 
   return (
@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
           {/* Logo/Brand */}
           <div className="text-center">
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600 mb-2">
-              Alex Johnson
+              Surendra Vasamsetti
             </h3>
             <p className="text-gray-400 text-sm font-mono">
               {'<'} Building the future, one line of code at a time {' />'}
@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
           {/* Copyright */}
           <div className="text-center text-gray-400 text-sm">
             <p className="flex items-center justify-center space-x-2 mb-2">
-              <span>© 2024 Alex Johnson. Crafted with</span>
+              <span>© 2024 Suri Ace. Crafted with</span>
               <Heart size={16} className="text-red-500 fill-current animate-pulse" />
               <span>and quantum computing.</span>
             </p>
