@@ -149,14 +149,14 @@ export const Hero: React.FC = () => {
                     ? 'bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600'
                     : 'bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600'
                 }`}>
-                  Surendra Vasamsetti
+                  Surendra
                 </span>
                 <div className={`absolute inset-0 text-transparent bg-clip-text blur-sm opacity-50 ${
                   isDark 
                     ? 'bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600'
                     : 'bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600'
                 }`}>
-                  Surendra Vasamsetti
+                  Surendra
                 </div>
               </span>
             </h1>
