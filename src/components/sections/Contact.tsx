@@ -172,7 +172,7 @@ export const Contact: React.FC = () => {
                       </h4>
                       <p className={`font-mono text-sm ${
                         isDark ? 'text-gray-300' : 'text-gray-600'
-                      }`}>alex.johnson@example.com</p>
+                      }`}>leelasurendravasamsetti@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@ export const Contact: React.FC = () => {
                       </h4>
                       <p className={`font-mono text-sm ${
                         isDark ? 'text-gray-300' : 'text-gray-600'
-                      }`}>+1 (555) 123-4567</p>
+                      }`}>+91 9121047697</p>
                     </div>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ export const Contact: React.FC = () => {
                       </h4>
                       <p className={`font-mono text-sm ${
                         isDark ? 'text-gray-300' : 'text-gray-600'
-                      }`}>San Francisco, CA</p>
+                      }`}>Angara, Andhra Pradesh, India</p>
                     </div>
                   </div>
                 </div>
