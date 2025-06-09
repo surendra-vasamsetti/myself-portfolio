@@ -110,7 +110,7 @@ export const LoadingScreen: React.FC = () => {
         {/* Brand */}
         <div className="text-center">
           <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600 mb-2">
-            Alex Johnson
+            Suriii...
           </h1>
           <p className="text-gray-400 text-xs font-mono">
             {'<'} Quantum Portfolio System {' />'}
