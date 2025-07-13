@@ -2,40 +2,40 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const skills = [
-  { name: 'JavaScript', level: 95, color: 'from-yellow-400 to-yellow-600' },
-  { name: 'TypeScript', level: 90, color: 'from-blue-400 to-blue-600' },
-  { name: 'React', level: 95, color: 'from-cyan-400 to-cyan-600' },
+  { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-yellow-600' },
+  { name: 'TypeScript', level: 80, color: 'from-blue-400 to-blue-600' },
+  { name: 'React', level: 85, color: 'from-cyan-400 to-cyan-600' },
   { name: 'Next.js', level: 85, color: 'from-gray-400 to-gray-600' },
   { name: 'Node.js', level: 88, color: 'from-green-400 to-green-600' },
   { name: 'Python', level: 80, color: 'from-blue-500 to-blue-700' },
-  { name: 'Neural Networks', level: 75, color: 'from-purple-400 to-purple-600' },
-  { name: 'Quantum Computing', level: 70, color: 'from-pink-400 to-pink-600' },
-  { name: 'WebXR/AR', level: 82, color: 'from-indigo-400 to-indigo-600' },
-  { name: 'Blockchain', level: 78, color: 'from-orange-400 to-orange-600' },
-  { name: 'AI/ML', level: 85, color: 'from-red-400 to-red-600' },
+  { name: 'Java', level: 87, color: 'from-purple-400 to-purple-600' },
+  // { name: 'Quantum Computing', level: 70, color: 'from-pink-400 to-pink-600' },
+  // { name: 'WebXR/AR', level: 82, color: 'from-indigo-400 to-indigo-600' },
+  // { name: 'Blockchain', level: 78, color: 'from-orange-400 to-orange-600' },
+  // { name: 'AI/ML', level: 85, color: 'from-red-400 to-red-600' },
   { name: 'Cloud Computing', level: 88, color: 'from-teal-400 to-teal-600' },
 ];
 
 const technologies = [
   { name: 'React', icon: '⚛️', category: 'Frontend' },
-  { name: 'Neural AI', icon: '🧠', category: 'AI/ML' },
-  { name: 'Quantum', icon: '⚡', category: 'Computing' },
-  { name: 'Blockchain', icon: '🔗', category: 'Web3' },
-  { name: 'WebXR', icon: '🥽', category: 'Immersive' },
-  { name: 'Cloud', icon: '☁️', category: 'Infrastructure' },
-  { name: 'Cybersec', icon: '🛡️', category: 'Security' },
+  { name: 'Java', icon: '🧠', category: 'Coding' },
+  // { name: 'Quantum', icon: '⚡', category: 'Computing' },
+  // { name: 'Blockchain', icon: '🔗', category: 'Web3' },
+  // { name: 'WebXR', icon: '🥽', category: 'Immersive' },
+  { name: 'AWS', icon: '☁️', category: 'Cloud' },
+  // { name: 'Cybersec', icon: '🛡️', category: 'Security' },
   { name: 'IoT', icon: '📡', category: 'Hardware' },
   { name: 'Docker', icon: '🐳', category: 'DevOps' },
-  { name: 'GraphQL', icon: '📊', category: 'API' },
-  { name: 'TensorFlow', icon: '🤖', category: 'AI/ML' },
-  { name: 'Kubernetes', icon: '⚙️', category: 'DevOps' },
+  // { name: 'GraphQL', icon: '📊', category: 'API' },
+  // { name: 'TensorFlow', icon: '🤖', category: 'AI/ML' },
+  { name: 'Kubernetes', icon: '⚙️', category: 'Devops' },
 ];
 
 const TechCard = ({ tech, index, inView }: { tech: any; index: number; inView: boolean }) => {
   const getCategoryColor = (category: string) => {
     switch (category) {
       case 'Frontend': return 'from-cyan-400 to-blue-500';
-      case 'AI/ML': return 'from-purple-400 to-pink-500';
+      case 'Coding': return 'from-purple-400 to-pink-500';
       case 'Computing': return 'from-yellow-400 to-orange-500';
       case 'Web3': return 'from-green-400 to-emerald-500';
       case 'Immersive': return 'from-indigo-400 to-purple-500';
@@ -43,7 +43,7 @@ const TechCard = ({ tech, index, inView }: { tech: any; index: number; inView: b
       case 'Security': return 'from-red-400 to-pink-500';
       case 'Hardware': return 'from-orange-400 to-red-500';
       case 'DevOps': return 'from-teal-400 to-green-500';
-      case 'API': return 'from-violet-400 to-purple-500';
+      case 'Devops': return 'from-violet-400 to-purple-500';
       default: return 'from-gray-400 to-gray-600';
     }
   };

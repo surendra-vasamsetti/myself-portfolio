@@ -51,7 +51,7 @@ export const About: React.FC = () => {
             <div className="space-y-6">
               <HolographicCard delay={200}>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  I'm a passionate full-stack developer with over 5 years of experience creating 
+                  I'm a passionate about  full-stack developer and cloud/devops with over 1 year of experience creating 
                   digital solutions that push the boundaries of what's possible. I specialize in 
                   cutting-edge web technologies and love bringing futuristic ideas to life through 
                   clean, efficient code.
@@ -61,7 +61,7 @@ export const About: React.FC = () => {
               <HolographicCard delay={400}>
                 <p className="text-lg text-gray-300 leading-relaxed">
                   When I'm not coding the future, you can find me exploring emerging technologies, 
-                  contributing to open-source projects, or diving deep into the latest in AI and 
+                   or diving deep into the latest in AI and 
                   machine learning. I believe in continuous evolution and staying ahead of the curve.
                 </p>
               </HolographicCard>
@@ -75,8 +75,8 @@ export const About: React.FC = () => {
                   <ul className="text-gray-300 space-y-2">
                     <li className="flex items-center"><span className="text-cyan-400 mr-2">▶</span> Web Development</li>
                     <li className="flex items-center"><span className="text-cyan-400 mr-2">▶</span> UI/UX Design</li>
+                    <li className="flex items-center"><span className="text-cyan-400 mr-2">▶</span> Cloud/Devops</li>
                     <li className="flex items-center"><span className="text-cyan-400 mr-2">▶</span> AI Integration</li>
-                    <li className="flex items-center"><span className="text-cyan-400 mr-2">▶</span> Blockchain</li>
                   </ul>
                 </HolographicCard>
                 
@@ -86,8 +86,8 @@ export const About: React.FC = () => {
                     Details
                   </h4>
                   <div className="text-gray-300 space-y-2">
-                    <p><span className="text-purple-400">Location:</span> San Francisco, CA</p>
-                    <p><span className="text-purple-400">Experience:</span> 5+ Years</p>
+                    <p><span className="text-purple-400">Location:</span> Rajamundry, AP</p>
+                    <p><span className="text-purple-400">Experience:</span> 1+ Years</p>
                     <p><span className="text-purple-400">Status:</span> Available</p>
                   </div>
                 </HolographicCard>

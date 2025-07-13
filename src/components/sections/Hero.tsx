@@ -165,7 +165,7 @@ export const Hero: React.FC = () => {
           <p className={`text-xl sm:text-2xl mb-8 max-w-2xl mx-auto font-light ${
             isDark ? 'text-cyan-100' : 'text-gray-700'
           }`}>
-            <span className={isDark ? 'text-cyan-400' : 'text-blue-600'}>Full-Stack Developer</span> & <span className={isDark ? 'text-purple-400' : 'text-purple-600'}>UI/UX Designer</span>
+            <span className={isDark ? 'text-cyan-400' : 'text-blue-600'}>Full-Stack Developer</span> & <span className={isDark ? 'text-purple-400' : 'text-purple-600'}>DevOps Engineer</span>
             <br />
             <span className={isDark ? 'text-gray-300' : 'text-gray-600'}>Crafting the future of digital experiences</span>
           </p>
