@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
             <p className="flex items-center justify-center space-x-2 mb-2">
               <span>© 2024 Suri Ace. Crafted with</span>
               <Heart size={16} className="text-red-500 fill-current animate-pulse" />
-              <span>and quantum computing.</span>
+              <span>and Energy.</span>
             </p>
             <p className="flex items-center justify-center space-x-2 text-xs">
               <Zap size={12} className="text-cyan-400" />
